@@ -10,7 +10,7 @@ function Footer() {
 
         <li>
           <a
-            href="hhttps://www.linkedin.com/in/frederickchon"
+            href="https://www.linkedin.com/in/frederickchon"
             target="_blank"
             className="font-bold"
           >
@@ -19,7 +19,7 @@ function Footer() {
         </li>
         <li>
           <a 
-            href=""
+            href="https://drive.google.com/file/d/16TKWjO-y54dwMB2qGTqD0vkDJByLTHJJ/view?usp=sharing"
             target="_blank"
             className="font-bold"
           >

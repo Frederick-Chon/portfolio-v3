@@ -1,8 +1,12 @@
 import Layout from "../components/layout";
+import Head from 'next/head';
 
 function Home() {
   return (
     <Layout>
+      <Head>
+        <title>Frederick Chon</title>
+      </Head>
       <div className="flex flex-col items-left justify-center">
 
         <h1 className="font-bold my-8 text-2xl md:text-4xl lg:text-6xl ">
