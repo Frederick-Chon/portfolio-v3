@@ -3,11 +3,14 @@ import Layout from "../components/layout";
 function Home() {
   return (
     <Layout>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-left justify-center">
 
-        <h2 className="bg-yellow-400 font-bold my-8 p-3 text-lg md:text-2xl">
-          Hello, I'm Frederick Chon
-        </h2>
+        <h1 className="font-bold my-8 text-2xl md:text-4xl lg:text-6xl ">
+          Hello, I'm <span className="font-extrabold text-red-600" >Frederick Chon</span>
+        </h1>
+        <p className="my-0 text-lg " >
+          Front End Web Developer located in <span className="underline" >Los Angeles, CA</span> with a passion for learning the newest technologies.
+        </p>
       </div>
     </Layout>
   );
